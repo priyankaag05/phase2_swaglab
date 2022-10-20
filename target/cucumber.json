@@ -1,0 +1,369 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-16T14:12:55.997Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5733648400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefsphase2.Hooksproject.Setup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "This senario is to define the login page with positive test",
+        "description": "",
+        "id": "login-saucedemo-scenario;this-senario-is-to-define-the-login-page-with-positive-test",
+        "after": [
+          {
+            "result": {
+              "duration": 266847200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefsphase2.Hooksproject.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3172028500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 444736100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the correct username and password",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_enter_the_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 214877600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I clicked on Login Button",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_clicked_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27982900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should land on home page",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-16T14:13:06.210Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1728544800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefsphase2.Hooksproject.Setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "This senario is to define the failure",
+        "description": "",
+        "id": "login-saucedemo-scenario;this-senario-is-to-define-the-failure",
+        "after": [
+          {
+            "result": {
+              "duration": 450254800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefsphase2.Hooksproject.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3834418900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 310824200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter the incorrect username as \"standard_user\" and password as \"Abc@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Abc@1234\"",
+                  "offset": 66
+                }
+              ],
+              "location": "stepdefsphase2.LoginStepDef.i_enter_the_incorrect_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 106938000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I clicked on Login Button",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_clicked_on_Login_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62963700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should get the error message \"Epic sadface: Username and password do not match any user in this service\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Epic sadface: Username and password do not match any user in this service\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdefsphase2.LoginStepDef.i_should_get_the_error_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@sanity"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-16T14:13:12.718Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1179811900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefsphase2.Hooksproject.Setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "This scenario is to test different usernames and password combination",
+        "description": "",
+        "id": "login-saucedemo-scenario;this-scenario-is-to-test-different-usernames-and-password-combination;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 519702400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefsphase2.Hooksproject.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3642356600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 391776000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter the correct username as \"problem_user\" and password as  \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"problem_user\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 64
+                }
+              ],
+              "location": "stepdefsphase2.LoginStepDef.i_enter_the_correct_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8994200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should land on home page",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-16T14:13:18.477Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1952718200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefsphase2.Hooksproject.Setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "This scenario is to test different usernames and password combination",
+        "description": "",
+        "id": "login-saucedemo-scenario;this-scenario-is-to-test-different-usernames-and-password-combination;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 173899700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefsphase2.Hooksproject.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3842353100,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I have launched the application",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_have_launched_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 344802400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter the correct username as \"performance_glitch_user\" and password as  \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"performance_glitch_user\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 75
+                }
+              ],
+              "location": "stepdefsphase2.LoginStepDef.i_enter_the_correct_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8994700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I should land on home page",
+            "match": {
+              "location": "stepdefsphase2.LoginStepDef.i_should_land_on_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login saucedemo scenario",
+    "description": "",
+    "id": "login-saucedemo-scenario",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]
